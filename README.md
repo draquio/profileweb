@@ -20,3 +20,7 @@ Sitio web realizado para prueba técnica sobre NextJS, Css y Testing.
 - Responsive
 - Variables de Sass
 - Animaciones
+
+# Optimización
+![](https://i.ibb.co/qJGK6rk/d-seo.webp)
+![](https://i.ibb.co/MkHgzNp/m-seo.webp)

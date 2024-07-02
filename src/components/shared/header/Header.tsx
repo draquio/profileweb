@@ -6,8 +6,8 @@ export const Header = () => {
       <nav className={css.nav}>
         <div className={css.logo}>ProfileWeb</div>
         <ul>
-          <li><Link href="/">Inicio</Link> </li>
-          <li><Link href="/contact">Contacto</Link> </li>
+          <li><Link href="/">Inicio</Link></li>
+          <li><Link href="/contact">Contacto</Link></li>
         </ul>
       </nav>
     </header>
