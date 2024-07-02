@@ -1,0 +1,51 @@
+@import "../../app/globals.module.scss";
+
+.contactform{    
+    // h2{
+    //     color: $main-color;
+    //     text-align: center;
+    //     animation: fade 0.5s backwards;
+    // }
+    form {
+        animation: fade-up 1s backwards;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        input, textarea{
+            padding: $padding+5px;
+            box-sizing: border-box;
+            border-radius: $border-radius;
+            border: 0;
+            background-color: $second-color;
+            transition: $transition;
+            &:focus{
+                outline: none;
+                background-color: $hover;
+            }
+        }
+        textarea{
+            min-height: 200px;
+            resize: none;
+        }
+        button{
+            background-color: $main-color;
+            color: white;
+            padding: $padding;
+            border-radius: $border-radius;
+            outline: none;
+            border: 0;
+            max-width: 150px;
+            text-align: center;
+            cursor: pointer;
+            transition: 0.3s ease-in-out all;
+            &:hover{
+                opacity: 0.8;
+            }
+        }        
+    }
+    .message{
+        padding: $padding;
+        margin: 5px 0;
+        border-radius: 5px;
+    }
+}

@@ -1,0 +1,13 @@
+@import "../../../app/globals.module.scss";
+
+.footer{
+    background-color: white;
+    margin-top: auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $box-shadow;
+    color:$main-color;
+    font-weight: bold;
+}

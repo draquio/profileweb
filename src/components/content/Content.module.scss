@@ -1,0 +1,21 @@
+@import "../../app/globals.module.scss";
+.content{
+    color: $main-color;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    // h1{
+    //     text-align: center;
+    //     animation: fade 0.5s backwards;
+    // }
+    &_info{
+        animation: fade-scale 1s backwards;
+        padding: $padding+10px;
+        background-color: $second-color;
+        border-radius: $border-radius;
+        transition: $transition;
+        &:hover{
+            background-color: $hover;
+        }
+    }
+}
